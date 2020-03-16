@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="16dp"
+    tools:context="dev.test.timebar.Main2Activity">
+
+    <dev.test.coloredtimebar.TimelineView
+        android:id="@+id/timelineView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:barColorAvailable="@color/available_time_default_color"
+        app:barColorHighlight="@color/selector_default_color"
+        app:barColorNotAvailable="@color/timeline_default_color"
+        app:barWidth="16dp"
+        app:fractionLineColor="@color/separatorDark"
+        app:fractionLineLength="8dp"
+        app:fractionLineWidth="1dp"
+        app:fractionPrimaryTextColor="@color/fraction_default_color"
+        app:fractionSecondaryTextColor="@color/fraction_default_color"
+        app:fractionTextInterval="2"
+        app:fractionTextSize="@dimen/text_size_xx_small"
+        app:timeRange="07:00-19:00"
+        tools:ignore="MissingConstraints" />
+
+</LinearLayout>
