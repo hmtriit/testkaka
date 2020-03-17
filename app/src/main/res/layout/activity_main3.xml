@@ -14,16 +14,16 @@
         android:layout_marginTop="10dp"
         app:barColorAvailable="@color/available_time_default_color"
         app:barColorHighlight="@color/selector_default_color"
-        app:barColorNotAvailable="@color/timeline_default_color"
+        app:barColorNotAvailable="@color/separatorDark"
         app:barWidth="16dp"
-        app:fractionLineColor="@color/separatorDark"
+        app:fractionLineColor="@color/colorPrimary"
         app:fractionLineLength="8dp"
         app:fractionLineWidth="1dp"
         app:fractionPrimaryTextColor="@color/fraction_default_color"
         app:fractionSecondaryTextColor="@color/fraction_default_color"
         app:fractionTextInterval="2"
         app:fractionTextSize="@dimen/text_size_xx_small"
-        app:timeRange="07:00-19:00"
+        app:timeRange="00:00-23:59"
         tools:ignore="MissingConstraints" />
 
 
